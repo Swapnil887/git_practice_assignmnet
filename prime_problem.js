@@ -1,9 +1,9 @@
 
 function prime_number(number){
 var factors=0
-for(var i=1;i<=num;i++)
+for(var i=1;i<=number;i++)
 {
-    if(number%i)
+    if(number%i==0)
     {
         factors++;
     }
