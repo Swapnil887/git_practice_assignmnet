@@ -1,14 +1,14 @@
 
-function prime_number(num){
-var counter=0
-for(var i=1;i<=num;i++)
+function prime_number(number){
+var factors=0
+for(var i=1;i<=number;i++)
 {
-    if(num%i==0)
+    if(number%i==0)
     {
-        counter++;
+        factors++;
     }
 }
-if(counter>2)
+if(factors>2)
 {
     return false
 }
